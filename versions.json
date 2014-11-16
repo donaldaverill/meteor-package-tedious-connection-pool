@@ -2,7 +2,7 @@
   "dependencies": [
     [
       "donaldaverill:tedious",
-      "1.7.0_1"
+      "1.7.0_2"
     ],
     [
       "meteor",
