@@ -6,6 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
+  'tedious': '1.7.0',
   'tedious-connection-pool': '0.3.0'
 });
 Package.onUse(function(api) {
