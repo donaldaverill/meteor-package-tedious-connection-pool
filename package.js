@@ -4,7 +4,6 @@ Package.describe({
   version: '0.3.0_1',
   git: 'https://github.com/donaldaverill/meteor-package-tedious-connection-pool'
 });
-
 Npm.depends({
   'tedious': '1.7.0',
   'tedious-connection-pool': '0.3.0'
@@ -18,7 +17,6 @@ Package.onUse(function(api) {
   api.export('TediousConnectionPool', ['server']);
   api.addFiles('donaldaverill:tedious-connection-pool.js', ['server']);
 });
-
 Package.onTest(function(api) {
   api.use('tinytest', ['client', 'server']);
   api.use('donaldaverill:tedious-connection-pool', ['server']);
