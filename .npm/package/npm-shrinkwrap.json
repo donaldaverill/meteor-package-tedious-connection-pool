@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "tedious-connection-pool": {
+      "version": "0.3.0"
+    }
+  }
+}
