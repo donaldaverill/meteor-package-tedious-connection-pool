@@ -11,6 +11,9 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.use('donaldaverill:tedious', ['server']);
+  if (typeof Tedious === 'undefined') {
+    api.export('Tedious', ['server']);
+  }
   api.export('TediousConnectionPool', ['server']);
   api.addFiles('donaldaverill:tedious-connection-pool.js', ['server']);
 });
