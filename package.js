@@ -10,7 +10,7 @@ Npm.depends({
 });
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('donaldaverill:tedious@1.7.0_2', ['server']);
+  api.use('donaldaverill:tedious@1.10.0_1', ['server']);
   if (typeof Tedious === 'undefined') {
     api.export('Tedious', ['server']);
   }
