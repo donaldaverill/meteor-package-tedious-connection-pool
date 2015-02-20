@@ -1,12 +1,12 @@
 Package.describe({
   name: 'donaldaverill:tedious-connection-pool',
   summary: 'tedious-connection-pool npm package wrapped for Meteor',
-  version: '0.3.0_2',
+  version: '0.3.4_1',
   git: 'https://github.com/donaldaverill/meteor-package-tedious-connection-pool'
 });
 Npm.depends({
-  'tedious': '1.7.0',
-  'tedious-connection-pool': '0.3.0'
+  'tedious': '1.10.0',
+  'tedious-connection-pool': '0.3.4'
 });
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
