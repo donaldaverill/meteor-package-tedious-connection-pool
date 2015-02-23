@@ -4,7 +4,7 @@ binary-heap@1.0.2
 callback-hook@1.0.2
 check@1.0.4
 ddp@1.0.14
-donaldaverill:tedious@1.7.0_1
+donaldaverill:tedious@1.10.0_2
 donaldaverill:tedious-connection-pool@0.3.4_2
 ejson@1.0.5
 follower-livedata@1.0.3
