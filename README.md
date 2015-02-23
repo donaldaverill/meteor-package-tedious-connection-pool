@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/donaldaverill/meteor-package-tedious-connection-pool.svg)](https://travis-ci.org/donaldaverill/meteor-package-tedious-connection-pool)
-```
+```bash
 meteor add donaldaverill:tedious-connection-pool
 ```
 [tedious-connection-pool](https://www.npmjs.org/package/tedious-connection-pool) npm module wrapped for Meteor. Used for connection pooling with Microsoft SQL Server and Azure databases. Depends on donaldaverill:tedious.
@@ -7,7 +7,7 @@ meteor add donaldaverill:tedious-connection-pool
 For more, see the [tedious Documentation](http://pekim.github.io/tedious/index.html).
 
 Example:
-```js
+```javascript
 var connectionPool = new TediousConnectionPool({
   max: 10,
   min: 0,
