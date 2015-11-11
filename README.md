@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/donaldaverill/meteor-package-tedious-connection-pool.svg)](https://travis-ci.org/donaldaverill/meteor-package-tedious-connection-pool)
+[![Build Status](https://travis-ci.org/fourquet/meteor-package-tedious-connection-pool.svg)](https://travis-ci.org/fourquet/meteor-package-tedious-connection-pool)
 ```bash
-meteor add donaldaverill:tedious-connection-pool
+meteor add fourquet:tedious-connection-pool
 ```
-[tedious-connection-pool](https://www.npmjs.org/package/tedious-connection-pool) npm module wrapped for Meteor. Used for connection pooling with Microsoft SQL Server and Azure databases. Depends on donaldaverill:tedious.
+[tedious-connection-pool](https://www.npmjs.org/package/tedious-connection-pool) npm module wrapped for Meteor. Used for connection pooling with Microsoft SQL Server and Azure databases. Depends on fourquet:tedious.
 
 For more, see the [tedious Documentation](http://pekim.github.io/tedious/index.html).
 
