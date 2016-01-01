@@ -47,3 +47,10 @@ connectionPool.acquire(function (err, connection) {
   connection.execSql(request);
 });
 ```
+
+### Version
+0.3.9_1
+License
+----
+
+MIT
