@@ -48,9 +48,8 @@ connectionPool.acquire(function (err, connection) {
 });
 ```
 
-### Version
+#### Version
 0.3.9_1
-License
-----
 
+####License
 MIT
